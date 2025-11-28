@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Crepes | At Home Outing</title>
+    <style>
+        /* --- CSS STYLING --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f9f9f9; color: #333; line-height: 1.6; }
+
+        nav { background-color: #2c3e50; color: white; display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #e67e22; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 20px; }
+        .nav-links a:hover { color: #e67e22; }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: white; margin-top: 20px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9rem; }
+        .breadcrumb a { color: #555; text-decoration: none; }
+        .breadcrumb span { color: #999; margin: 0 5px; }
+        .breadcrumb a:hover { color: #0055a4; text-decoration: underline; }
+
+        .recipe-header { text-align: center; border-bottom: 2px solid #f0f0f0; padding-bottom: 20px; margin-bottom: 30px; }
+        .recipe-header h1 { color: #0055a4; font-size: 2.5rem; margin-bottom: 10px; }
+        .recipe-image-placeholder { width: 100%; height: 300px; background-color: #eee; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888; margin-bottom: 20px; }
+        
+        .recipe-meta { display: flex; justify-content: center; gap: 40px; margin-bottom: 10px; }
+        .meta-item { text-align: center; }
+        .meta-label { font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+        .meta-value { font-size: 1.2rem; font-weight: bold; color: #2c3e50; }
+
+        .recipe-content { display: flex; flex-wrap: wrap; gap: 40px; }
+        .ingredients-section { flex: 1; min-width: 300px; }
+        .instructions-section { flex: 2; min-width: 300px; }
+
+        h2 { color: #2c3e50; margin-bottom: 15px; border-left: 5px solid #0055a4; padding-left: 10px; }
+
+        ul.ingredients-list { list-style: none; }
+        ul.ingredients-list li { padding: 10px 0; border-bottom: 1px solid #eee; display: flex; align-items: center; }
+        input[type="checkbox"] { margin-right: 10px; transform: scale(1.2); cursor: pointer; }
+
+        ol.instructions-list { padding-left: 20px; }
+        ol.instructions-list li { margin-bottom: 20px; padding-left: 10px; }
+        
+        footer { background-color: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">At Home Outing 🍽️</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> <span>&gt;</span> 
+            <a href="french.html">French Cuisine</a> <span>&gt;</span> 
+            <strong>Classic Crêpes</strong>
+        </div>
+
+        <header class="recipe-header">
+            <div class="recipe-image-placeholder"></div>
+            <h1>Authentic French Crêpes</h1>
+            <p>Paper-thin pancakes that are perfect for breakfast or dessert. Just add your favorite topping.</p>
+            
+            <div class="recipe-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Prep Time</div>
+                    <div class="meta-value">10 Mins</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Cook Time</div>
+                    <div class="meta-value">20 Mins</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Servings</div>
+                    <div class="meta-value">8 Crêpes</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="recipe-content">
+            
+            <div class="ingredients-section">
+                <h2>Ingredients</h2>
+                <ul class="ingredients-list">
+                    <li><input type="checkbox"> 1 cup All-Purpose Flour</li>
+                    <li><input type="checkbox"> 2 large Eggs</li>
+                    <li><input type="checkbox"> 1/2 cup Milk</li>
+                    <li><input type="checkbox"> 1/2 cup Water</li>
+                    <li><input type="checkbox"> 2 tbsp Melted Butter</li>
+                    <li><input type="checkbox"> 1/4 tsp Salt</li>
+                    <li><input type="checkbox"> Butter (for pan coating)</li>
+                </ul>
+            </div>
+
+            <div class="instructions-section">
+                <h2>Instructions</h2>
+                <ol class="instructions-list">
+                    <li>
+                        <strong>Make the Batter:</strong><br>
+                        In a large mixing bowl, whisk the flour and the eggs. Gradually add in the milk and water while whisking to prevent lumps.
+                    </li>
+                    <li>
+                        <strong>Add Butter:</strong><br>
+                        Add the salt and the 2 tablespoons of melted butter. Beat until smooth.
+                    </li>
+                    <li>
+                        <strong>Rest (Important):</strong><br>
+                        Let the batter sit in the fridge for at least 30 minutes (or up to 1 hour). This relaxes the gluten and makes the crêpes tender.
+                    </li>
+                    <li>
+                        <strong>Heat the Pan:</strong><br>
+                        Heat a non-stick pan over medium-high heat. Lightly coat with butter.
+                    </li>
+                    <li>
+                        <strong>Pour and Swirl:</strong><br>
+                        Pour about 1/4 cup of batter into the center of the pan. Immediately lift the pan and swirl it in a circular motion so the batter coats the bottom evenly and thinly.
+                    </li>
+                    <li>
+                        <strong>Flip:</strong><br>
+                        Cook for about 1-2 minutes until the edges brown and lift up. Flip gently and cook the other side for 1 minute.
+                    </li>
+                    <li>
+                        <strong>Serve:</strong><br>
+                        Serve hot with lemon and sugar, Nutella, or jam.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 At Home Outing. Promoting health through home cooking.</p>
+    </footer>
+
+</body>
+</html>

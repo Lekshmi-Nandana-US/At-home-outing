@@ -1,0 +1,85 @@
+/* =========================================
+   1. GLOBAL RESET & FONTS (Every Page)
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =========================================
+   2. NAVIGATION BAR (Every Page)
+   ========================================= */
+nav {
+    background-color: #2c3e50; /* Dark Navy */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e67e22; /* Brand Orange */
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e67e22;
+}
+
+/* =========================================
+   3. FOOTER (Every Page)
+   ========================================= */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Pushes footer to bottom even on short pages */
+}
+
+/* =========================================
+   4. SHARED UTILITIES
+   ========================================= */
+/* Basic container to keep content centered, 
+   but NO flexbox rules that break layouts */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Breadcrumb links used on all recipe/cuisine pages */
+.breadcrumb {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    font-size: 0.9rem;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}

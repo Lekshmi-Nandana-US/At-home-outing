@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyderabadi Biryani | At Home Outing</title>
+    <style>
+        /* --- CSS STYLING (Same as Butter Chicken for consistency) --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f9f9f9; color: #333; line-height: 1.6; }
+
+        nav { background-color: #2c3e50; color: white; display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #e67e22; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 20px; }
+        .nav-links a:hover { color: #e67e22; }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: white; margin-top: 20px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9rem; }
+        .breadcrumb a { color: #555; text-decoration: none; }
+        .breadcrumb span { color: #999; margin: 0 5px; }
+        .breadcrumb a:hover { color: #e67e22; text-decoration: underline; }
+
+        .recipe-header { text-align: center; border-bottom: 2px solid #f0f0f0; padding-bottom: 20px; margin-bottom: 30px; }
+        .recipe-header h1 { color: #d35400; font-size: 2.5rem; margin-bottom: 10px; }
+        .recipe-image-placeholder { width: 100%; height: 300px; background-color: #eee; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #888; margin-bottom: 20px; }
+        
+        .recipe-meta { display: flex; justify-content: center; gap: 40px; margin-bottom: 10px; }
+        .meta-item { text-align: center; }
+        .meta-label { font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+        .meta-value { font-size: 1.2rem; font-weight: bold; color: #2c3e50; }
+
+        .recipe-content { display: flex; flex-wrap: wrap; gap: 40px; }
+        .ingredients-section { flex: 1; min-width: 300px; }
+        .instructions-section { flex: 2; min-width: 300px; }
+
+        h2 { color: #2c3e50; margin-bottom: 15px; border-left: 5px solid #e67e22; padding-left: 10px; }
+
+        ul.ingredients-list { list-style: none; }
+        ul.ingredients-list li { padding: 10px 0; border-bottom: 1px solid #eee; display: flex; align-items: center; }
+        input[type="checkbox"] { margin-right: 10px; transform: scale(1.2); cursor: pointer; }
+
+        ol.instructions-list { padding-left: 20px; }
+        ol.instructions-list li { margin-bottom: 20px; padding-left: 10px; }
+        
+        footer { background-color: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">At Home Outing 🍽️</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> <span>&gt;</span> 
+            <a href="indian.html">Indian Cuisine</a> <span>&gt;</span> 
+            <strong>Hyderabadi Biryani</strong>
+        </div>
+
+        <header class="recipe-header">
+            <div class="recipe-image-placeholder">[Image of Biryani Layering]</div>
+            <h1>Hyderabadi Chicken Biryani</h1>
+            <p>A royal dish of fragrant basmati rice and marinated chicken cooked in layers using the "Dum" method.</p>
+            
+            <div class="recipe-meta">
+                <div class="meta-item">
+                    <div class="meta-label">Prep Time</div>
+                    <div class="meta-value">40 Mins</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Cook Time</div>
+                    <div class="meta-value">45 Mins</div>
+                </div>
+                <div class="meta-item">
+                    <div class="meta-label">Servings</div>
+                    <div class="meta-value">4-5 People</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="recipe-content">
+            
+            <div class="ingredients-section">
+                <h2>Ingredients</h2>
+                <ul class="ingredients-list">
+                    <li><input type="checkbox"> 500g Basmati Rice (soaked)</li>
+                    <li><input type="checkbox"> 500g Chicken (bone-in)</li>
+                    <li><input type="checkbox"> 1 cup Fried Onions (Birista)</li>
+                    <li><input type="checkbox"> 1 cup Yogurt (Curd)</li>
+                    <li><input type="checkbox"> 2 tbsp Ginger-Garlic Paste</li>
+                    <li><input type="checkbox"> Whole Spices (Cardamom, Cloves, Bay Leaf)</li>
+                    <li><input type="checkbox"> Fresh Mint & Coriander leaves</li>
+                    <li><input type="checkbox"> Saffron soaked in warm milk</li>
+                    <li><input type="checkbox"> 2 tbsp Ghee (Clarified Butter)</li>
+                </ul>
+            </div>
+
+            <div class="instructions-section">
+                <h2>Instructions</h2>
+                <ol class="instructions-list">
+                    <li>
+                        <strong>Marinate the Chicken:</strong><br>
+                        In a large bowl, mix chicken, yogurt, ginger-garlic paste, salt, half of the fried onions, chopped mint/coriander, and chili powder. Let it marinate for at least 30 minutes (overnight is best).
+                    </li>
+                    <li>
+                        <strong>Par-boil the Rice:</strong><br>
+                        Boil a large pot of water with whole spices (bay leaf, cloves) and salt. Add the soaked rice. Cook only until 70% done (the grain should still be slightly hard in the center). Drain immediately.
+                    </li>
+                    <li>
+                        <strong>Layering (The Assembly):</strong><br>
+                        In a heavy-bottomed pot, spread the marinated chicken at the bottom. Layer the 70% cooked rice over the chicken.
+                    </li>
+                    <li>
+                        <strong>Add Aromatics:</strong><br>
+                        Top the rice with the remaining fried onions, fresh mint, ghee, and the saffron milk for color.
+                    </li>
+                    <li>
+                        <strong>Dum Cooking (Steaming):</strong><br>
+                        Seal the pot tightly with dough or foil and a heavy lid to trap steam. Cook on high heat for 5 minutes, then lowest heat for 20-25 minutes.
+                    </li>
+                    <li>
+                        <strong>Serve:</strong><br>
+                        Let it rest for 10 minutes, then gently fluff the rice with a fork to mix the layers.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 At Home Outing. Promoting health through home cooking.</p>
+    </footer>
+
+</body>
+</html>
